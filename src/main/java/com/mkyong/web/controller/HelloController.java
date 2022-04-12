@@ -22,7 +22,7 @@ public class HelloController {
 	public ModelAndView hello(@PathVariable("name") String name) {
 
 		ModelAndView model = new ModelAndView();
-		model.setViewName("hello WELCOME TO DEVOPS");
+		model.setViewName("hello welcome to DevOps");
 		model.addObject("msg", name);
 
 		return model;
